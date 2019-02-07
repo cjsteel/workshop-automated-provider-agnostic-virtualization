@@ -1,6 +1,6 @@
 # NADM Workshop - Automated Provider Agnostic Virtualization
 
-NW142 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
+NW143 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
 
 ## Demo's and Discussions
 
