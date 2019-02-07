@@ -1,13 +1,13 @@
 # NADM Workshop - Automated Provider Agnostic Virtualization
 
-## NW142 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
+NW142 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
 
 ## Demo's and Discussions
 
 ### [Molecule](https://molecule.readthedocs.io/en/latest/) Demo and Discussion - John Le
 
 Time estimate 15-30 min depending on discussion / questions
-Providers: Docker, Vagrant/VirtualBox
+Providers demoed : Docker, Vagrant/VirtualBox
 
 * Creating a python virtualenv (sandbox)
 * Installing Molecule into the virtualenv
@@ -31,13 +31,18 @@ Time estimate 30min - 1hour depending on previous discussions
 * Running the demo's on your notebook or workstation
 * Discussions about  potential uses in development and research
 
-## Requirements
+#### Requirements
 
-* Notebook or workstation running one or more of the following virtualization providers:
-* pip requirements file in repo
-* Stand alone apps:
-  * Docker
-  * LXC/LXD
-  * Vagrant
-  * VirtualBox
+(In order to run the demos you will want a notebook or workstation running one or more of the virtualization providers)
 
+##### Python
+
+* pip
+* virtualenv
+
+##### Virtualization providers
+
+* Docker
+* LXC/LXD
+* Vagrant
+* VirtualBox
