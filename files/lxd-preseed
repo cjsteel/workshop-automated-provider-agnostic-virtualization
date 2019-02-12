@@ -1,0 +1,40 @@
+config:
+  core.https_address: 132.216.122.127:8443
+  core.trust_password: distance7580
+networks:
+- config:
+    bridge.mode: fan
+    fan.underlay_subnet: auto
+  description: ""
+  managed: false
+  name: lxdfan0
+  type: ""
+storage_pools:
+- config:
+    size: 88GB
+  description: ""
+  name: local
+  driver: zfs
+profiles:
+- config: {}
+  description: ""
+  devices:
+    eth0:
+      name: eth0
+      nictype: bridged
+      parent: lxdfan0
+      type: nic
+    root:
+      path: /
+      pool: local
+      type: disk
+  name: default
+cluster:
+  server_name: ace-ws-101
+  enabled: true
+  member_config: []
+  cluster_address: ""
+  cluster_certificate: ""
+  server_address: ""
+  cluster_password: ""
+
