@@ -1,12 +1,25 @@
-# NADM Workshop - Automated Provider Agnostic Virtualization
+# NADM Workshop - Automated Provider Agnostic Virtualisation
 
 (Provider Agnostic Automation and Orchestration)
 
 NW143 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
 
+## Resources
+
+* [This repository](https://github.com/cjsteel/workshop-automated-provider-agnostic-virtualization)
+* [John's minc-toolkit demo](https://github.com/johnle/molecule-minc-toolkit-demo.git)
+
+### Mac Automated Configuration Script Example
+
+Lots of Ansible scripts are available for Linux, here is an interesting one for Mac users.
+
+* https://github.com/geerlingguy/mac-dev-playbook
+
 ## Demo's and Discussions
 
 ### [Molecule](https://molecule.readthedocs.io/en/latest/) Demo and Discussion - John Le & Christopher Steel
+
+* [creating-a-python-virtualenv.md](./docs/creating-a-python-virtualenv.md)
 
 Time estimate 15-30 min depending on discussion / questions
 Providers demoed : Docker, Vagrant/VirtualBox
