@@ -45,6 +45,12 @@ virtualenv ~/.venv/molecule/2.19.0 python==python2.7 --no-site-packages
 source ~/.venv/molecule/2.19.0/bin/activate
 ```
 
+### Install molecule
+
+```shell
+pip install molecule
+```
+
 ### Confirm your installation
 
 ```shell
@@ -57,7 +63,3 @@ Output example:
 ```
 
 That's it.
-### Install Molecule and requirements to your virtual environment
-
-```shell
-
