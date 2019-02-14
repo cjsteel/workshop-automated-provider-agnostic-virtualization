@@ -1,10 +1,12 @@
 # NADM Workshop - Automated Provider Agnostic Virtualization
 
+(Provider Agnostic Automation and Orchestration)
+
 NW143 - Thursday, February 14th, 11:00 - 12:00, 12:30 Max
 
 ## Demo's and Discussions
 
-### [Molecule](https://molecule.readthedocs.io/en/latest/) Demo and Discussion - John Le
+### [Molecule](https://molecule.readthedocs.io/en/latest/) Demo and Discussion - John Le & Christopher Steel
 
 Time estimate 15-30 min depending on discussion / questions
 Providers demoed : Docker, Vagrant/VirtualBox
@@ -46,3 +48,4 @@ Time estimate 30min - 1hour depending on previous discussions
 * LXC/LXD
 * Vagrant
 * VirtualBox
+

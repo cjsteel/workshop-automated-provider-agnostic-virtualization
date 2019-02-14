@@ -1,6 +1,16 @@
-### LXD
+# lxd.md
 
-#### Add remote
+## Installing
+
+### lxd init
+
+(needs content)
+
+* [lxd-preseed example](../files/lxd-preseed)
+
+## Images
+
+#### Adding a remote image server
 
 ##### Firewall on remote image server
 
@@ -11,7 +21,7 @@ ACCEPT  net:132.216.122.0/24    $FW             tcp     8443    #McGill AceLabs 
 ACCEPT  net:142.157.139.0/24    $FW             tcp     8443    #McGill AceLabs NW LXD
 ```
 
-##### Adding a remote to new client
+##### Adding a remote image server
 
 ```shell
 lxc remote add ace-ws-101 ace-ws-101.cbrain.mcgill.ca:8443 --password=password_here
@@ -52,7 +62,7 @@ Output example:
 +-----------------+--------------+--------+---------------------------------------------+--------+----------+-----------------------------+
 ```
 
-Launch remote image locally as a container
+Launch remote image locally as a container call **c1** and an alias **bionic**
 
 ```shell
 lxc launch ace-ws-101:18.04 c1 --alias bionic
